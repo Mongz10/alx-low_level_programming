@@ -39,4 +39,4 @@ const listint_t **append_to_list(const listint_t **node_list, size_t,
 void _free(void **ptr);
 #define safe_free(p) _free((void **) &(p))
 
-#endif /* LIST_H */
+#endif 
